@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Popins:wght@300;400;500;600;700;800;900;&display=swap');
+
+*{
+	border-radius: 0 !important;
+}
+
+.btn:hover{
+    box-shadow : 0 0 20px var(--color);
+    transform: scale(1.1);
+}
+
+header .user img:hover{
+    box-shadow : 0 0 15px var(--color);
+    transform: scale(1.1);
+}
+
+header .navbar ul li {
+    margin: 34px;
+    width:80%;
+}
+
+
+header .navbar ul li a.rectangle{
+    position: relative;
+    background:#333;
+    color:var(--color);
+    text-decoration: none;
+    font-size: 1.8rem;
+    letter-spacing: 0.1em;
+    padding: 10px 30px;
+    margin:1.5rem 0;
+    transition: 0.5s;
+}
+
+header .navbar ul li a.home-or-about{
+    padding-left: 52px;
+    padding-right: 52px;
+}
+header .navbar ul li a.rectangle:hover{
+    letter-spacing: 0.25em;  
+    background: var(--color);
+    color:var(--color);
+    box-shadow : 0 0 35px var(--color);
+}
+header .navbar ul li a.rectangle::before{
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background:#333;
+    color:var(--color);
+}
+
+header .navbar ul li a.rectangle span{
+    text-transform: uppercase;
+    position: relative;
+   z-index :1;
+   font-size: 1.7rem;
+}
+a.rectangle i.innerRectangle{
+    position:absolute;
+    inset:0;
+    display: block;
+}
+a.rectangle i.innerRectangle::before{
+    content:'';
+    position: absolute;
+    top: -3.5px;
+    left:80%;
+    width: 10px;
+    height: 5px;
+    border:2px solid var(--color);
+    background: #333;
+    transition: 0.5s;
+}
+a.rectangle i.fa{
+    display: none;;
+}
+a.rectangle:hover i.innerRectangle::before{   
+    left:20%;
+    width: 20px;
+}
+a.rectangle i.innerRectangle::after{
+    content:'';
+    position: absolute;
+    bottom: -3.5px;
+    left:20%;
+    width: 10px;
+    height: 5px;
+    border:2px solid var(--color);
+    background: #333;
+    transition: 0.5s;
+}
+a.rectangle:hover i.innerRectangle::after{   
+    left:80%;
+    width: 20px;
+}
+
+
+
+.home h1 span:hover{
+    color:var(--color);
+    text-shadow:
+    0 0 2px #fff,
+    0 0 4px #fff,
+    0 0 6px var(--color),
+    0 0 10px var(--color),
+    0 0 20px var(--color),
+    0 0 35px var(--color),
+    0 0 45px var(--color),
+    0 0 55px var(--color);
+}
+
+.about .row .counter .box:hover{
+    box-shadow : 0 0 20px var(--color);
+    transform: scale(1.2);
+}
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next
+{
+    color : var(--color);
+    text-shadow:
+    0 0 2px #fff,
+    0 0 4px #fff,
+    0 0 6px var(--color),
+    0 0 10px var(--color),
+    0 0 15px var(--color),
+    0 0 20px var(--color),
+    0 0 25px var(--color),
+    0 0 35px var(--color);
+} 
+
+.swiper .swiper-pagination-bullet-active{
+
+    background : var(--color);
+    box-shadow:
+    0 0 2px #fff,
+    0 0 4px #fff,
+    0 0 6px var(--color),
+    0 0 10px var(--color),
+    0 0 15px var(--color),
+    0 0 20px var(--color),
+    0 0 25px var(--color),
+    0 0 35px var(--color);
+}
+
+.cross-btn:hover {
+    color: var(--color);
+    text-shadow:
+    0 0 2px #fff,
+    0 0 4px #fff,
+    0 0 6px var(--color),
+    0 0 10px var(--color),
+    0 0 15px var(--color),
+    0 0 20px var(--color),
+    0 0 25px var(--color),
+    0 0 35px var(--color);
+}

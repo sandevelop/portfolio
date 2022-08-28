@@ -1,0 +1,46 @@
+.btn:hover{
+    background:var(--color);
+}
+
+header .navbar ul li a{
+    display: block;
+    padding:1rem;
+    margin:1.5rem 0;
+    background:#333;
+    color:#fff;
+    font-size: 2rem;
+    border-radius: 5rem;
+}
+
+.about .row .counter .box:hover{
+    transform: scale(1.2);
+    box-shadow: var(--color);
+}
+
+#gotohome img
+{
+    border-radius: 50% !important;
+}
+
+.cross-btn:hover {
+   color: var(--color);
+   transform: scale(1.2);
+}
+
+header .navbar ul li a{
+    display: block;
+    padding:1rem;
+    margin:1.5rem 0;
+    background:#333;
+    color:#fff;
+    font-size: 2rem;
+    border-radius: 5rem;
+}
+
+#gotohome img
+{
+	border-radius: 50% !important;
+}
+header .navbar ul li a:hover{
+    background:var(--color);
+}
